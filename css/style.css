@@ -30,18 +30,19 @@ a {
 
 /* vp + header */
 
-.vp-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 header {
   padding: 1rem 2rem;
   background: #333;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  line-height: 1.8rem;
+}
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .vp-logo {
@@ -54,13 +55,17 @@ header {
 }
 
 .vp-logo i {
-  color: #2ed573;
+  color: #77be6e;
   font-size: 2rem;
   margin-right: 1.5rem;
 }
 
 .vp-logo a {
   font-size: 2rem;
+}
+
+header h2 a:hover {
+  color: #77be6e;
 }
 
 header ul {
@@ -74,7 +79,7 @@ header ul li {
 }
 
 header ul li a:hover {
-  color: #2ed573;
+  color: #77be6e;
 }
 
 header a {
@@ -83,4 +88,42 @@ header a {
 
 .vp {
   flex: auto;
+}
+
+section div h1 i {
+  padding: 20px 0 0 0;
+  color: #77be6e;
+}
+
+strong {
+  color: #77be6e;
+
+  font-weight: 400;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/frame_2.png) center center/cover;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
