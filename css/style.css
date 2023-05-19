@@ -1,0 +1,31 @@
+/* font-family: 'Liu Jian Mao Cao', cursive; */
+:root {
+  /* on peut utiliser :root ou html comme sélecteur */
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
