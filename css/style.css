@@ -112,7 +112,7 @@ strong {
   flex: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background: url(../images/frame_2.png) center center/cover;
 }
@@ -125,7 +125,7 @@ strong {
 
 .vp-content h1 {
   font-size: 3.2rem;
-  margin-bottom: 10rem;
+  margin: 1rem 0 20rem 0;
 }
 
 .vp-content p {
