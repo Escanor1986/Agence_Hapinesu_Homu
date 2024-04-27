@@ -20,7 +20,7 @@ Ce projet est un modèle de site web pour une agence immobilière appelée "ハ�
 6. **Formulaire de Contact**: Les utilisateurs peuvent soumettre des demandes de renseignements ou des messages via le formulaire de contact situé dans la section "Contact".
 
 ### Installation
-1. Clonez le dépôt : `git clone [[repository_url](https://github.com/Escanor1986/Agence_Hapinesu_Homu)]`
+1. Clonez le dépôt : `git clone [repository_url](https://github.com/Escanor1986/Agence_Hapinesu_Homu)`
 2. Accédez au répertoire du projet.
 3. Ouvrez le fichier `index.html` dans un navigateur web pour afficher le site web.
 
@@ -30,3 +30,6 @@ Ce projet est un modèle de site web pour une agence immobilière appelée "ハ�
 
 ### Licence
 Ce projet est sous licence [MIT License](LICENSE). N'hésitez pas à le modifier et à le distribuer conformément aux termes de la licence.
+
+### App Link
+[App Link](https://escanor1986.github.io/Agence_Hapinesu_Homu/)
